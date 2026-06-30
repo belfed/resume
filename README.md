@@ -1,4 +1,4 @@
-# Federico Belotti — CV
+Resume
 
 Personal resume built with React and Tailwind CSS, bundled with Vite. Optimized for A4 print layout.
 
