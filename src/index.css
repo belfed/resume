@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#page {
+  padding: 1.5rem 2rem;
+}
+
+@media print {
+  html, body {
+    width: 21cm;
+    height: 29.7cm;
+    overflow: hidden;
+  }
+
+  #page {
+    width: 20.5cm;
+    height: 29.2cm;
+    margin: 0 auto;
+    padding: 0.5cm 0.8cm;
+    overflow: hidden;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 0.25cm;
+}
